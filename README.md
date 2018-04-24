@@ -13,6 +13,6 @@ Trade-Sculptor is an ongoing project.  The next steps in refining the app are as
 
 >-Adding buttons to remove cards from your trade list and buttons to change the quantity of a card.
 
-##Technologies/Libraries:
+## Technologies/Libraries:
 App.js and Bootswatch
 
