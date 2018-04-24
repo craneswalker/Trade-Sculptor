@@ -11,7 +11,7 @@ Trade-Sculptor is an ongoing project.  The next steps in refining the app are as
 
 >-Work on the UX/UI to make the app more fluid and fun to use.
 
->-Adding buttons to remove cards from your trade list and buttons to change the quantity of a card.
+>-Add buttons to remove cards from your trade list and buttons to change the quantity of a card.
 
 ## Technologies/Libraries:
 App.js and Bootswatch
