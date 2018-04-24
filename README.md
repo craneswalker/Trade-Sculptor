@@ -6,6 +6,7 @@ The app will take in your search and find all printings of a card.  From there, 
 
 ## The Future of Trade Sculptor
 Trade-Sculptor is an ongoing project.  The next steps in refining the app are as follows:
--Finish web-scraping tool to display pricing that is not available on the API.
--Work on the UX/UI to make the app more fluid and fun to use.
+>-Finish web-scraping tool to display pricing that is not available on the API.
+>-Work on the UX/UI to make the app more fluid and fun to use.
+>-Adding buttons to remove cards from your trade list and buttons to change the quantity of a card.
 
