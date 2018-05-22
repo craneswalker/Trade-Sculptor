@@ -1,6 +1,6 @@
 # Trade Sculptor
 [Click here to see Trade Sculptor in action](http://trade-sculptor.surge.sh/#/)
-![Trade Sulptor](https://drive.google.com/file/d/1oRYLfQ_eppY8h7gRMsPREJCDtOow5cr1/view?usp=sharing) "Trade Sculptor"
+![Trade Sulptor](https://www.dropbox.com/s/khzkbey27sv7830/Screen%20Shot%202018-05-22%20at%203.01.58%20PM.png?dl=0) "Trade Sculptor"
 
 ## Trade with confidence
 >Search for Magic:The Gathering cards you want to get rid of and add them to the trade.
