@@ -24,7 +24,7 @@
             <div class="card-body">
               <h4 class="card-title">{{theirTrade.name}}</h4>
               <img v-if="theirTrade.imageUrl" :src="theirTrade.imageUrl" :alt="theirTrade.name">
-              <p v-else>(No Image Provided)</p>
+              <img v-else src="../assets/300px-No_image_available.svg.png">
             </div>
           </div>
         </li>
@@ -40,6 +40,9 @@ export default {
     'yourTrades',
     'theirTrades'
   ],
+  methods: {
+
+  }
 
 }
 </script>

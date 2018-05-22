@@ -10,7 +10,7 @@
         <h4 class="card-title">Search for your cards one at a time</h4>
         <div class="form-group">
           <label class="col-form-label col-form-label-lg" for="inputLarge">What card are you trading for?</label>
-          <input v-model="cardName" class="trade-away-search form-control form-control-lg" type="text" placeholder="Card Name" id="inputLarge"/>
+          <input v-model="cardName" @keyup.enter="loadCards" class="trade-away-search form-control form-control-lg" type="text" placeholder="Card Name" id="inputLarge"/>
           <br>
           <button @click="loadCards" type="submit" class="btn btn-primary">Find</button>
         </div>
@@ -22,7 +22,7 @@
               <div class="card-body">
                 <h4 class="card-title">{{listOfCard.name}}</h4>
                 <img v-if="listOfCard.imageUrl" :src="listOfCard.imageUrl" :alt="listOfCard.name">
-                <p v-else>(No Image Provided)</p>
+                <img v-else src="../assets/300px-No_image_available.svg.png">
                 <button @click="toTheirTrades(listOfCard)" type="button" class="btn btn-primary">Select This Card</button>
               </div>
             </div>
@@ -63,6 +63,8 @@ export default {
     toTheirTrades(listOfCard) {
       const cardIndex = this.listOfCards.cards.indexOf(listOfCard)      
       this.theirTrades.push(this.listOfCards.cards[cardIndex])
+      alert("This card has been added to their list.  Keep searching for more, or add another!")
+
     }
   }
 }
@@ -77,4 +79,6 @@ export default {
   flex-direction: row;
   max-width: 20rem;
 }  
+
+
 </style>
